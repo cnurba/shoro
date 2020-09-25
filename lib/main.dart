@@ -30,6 +30,7 @@ class MyApp extends StatelessWidget {
        Provider<FormStore>(
          create: (_)=>FormStore(),
          child: MaterialApp(
+
           title: 'Shoro',
           theme: ThemeData(
             primaryColor: CONSTANTS.primaryColor,
